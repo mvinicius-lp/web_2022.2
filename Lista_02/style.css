@@ -1,0 +1,85 @@
+body{
+    background-color: white;
+    color: rgb(15, 20, 25);
+}
+
+a{
+    text-decoration:none;
+}
+
+.descricao{
+    color: rgb(15, 20, 25);
+}
+
+ul.options{
+    color: rgb(15, 20, 25);
+}
+
+ul.options li{
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+ul.options li:hover{
+    background-color: rgba(15, 25, 20, 0.1);
+    border-radius: 20px;
+}
+ul.estatisticas{
+    padding-left: 20px;
+}
+ul.estatisticas li{
+    display: inline;
+}
+ul.estatisticas a{
+    color: rgb(83, 100, 113);
+}
+ul.estatisticas span{
+    color: rgb(15, 20, 25);
+    font-weight: bold;
+}
+ul.estatisticas li:hover{
+    text-decoration: underline;
+}
+.nome{
+    color: rgb(15, 20, 25);
+}
+
+.arroba{
+    color: rgb(83, 100, 113);
+}
+.descricao{
+    color: rgb(15, 20, 25);
+}
+div.acoes a{
+    color: rgb(83, 100, 113);
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+div.acoes a:hover{
+    background-color: rgba(15, 25, 20, 0.1);
+    border-radius: 20px;
+}
+
+#replies #share{
+    background: rgba(29, 155, 240, 0.1);
+    color: rgba(29, 155, 240, 1)
+}
+#retzeet{
+    background: rgba(0, 186, 124, 0.1);
+    color: rgba(0, 186, 124, 1);
+}
+#like{
+    background: rgba(249, 24, 128, 0.1);
+    color: rgba(249, 24, 128, 1);
+}
+
+div.nomes p{
+    color: rgb(15, 20, 25);
+}
+div.nomes span{
+    color: rgb(83, 100, 113);
+}
+ul.data li{
+    color: rgb(83, 100, 113);
+}
