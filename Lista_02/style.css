@@ -60,20 +60,23 @@ div.acoes a:hover{
     background-color: rgba(15, 25, 20, 0.1);
     border-radius: 20px;
 }
-
-#replies #share{
-    background: rgba(29, 155, 240, 0.1);
-    color: rgba(29, 155, 240, 1)
+div.acoes-tzeets a{
+    color: rgb(83, 100, 113);
+    padding-left: 20px;
+    padding-right: 20px;
 }
-#retzeet{
-    background: rgba(0, 186, 124, 0.1);
+a#reply:hover,a#share:hover{
+    background-color: rgba(29, 155, 240, 0.1);
+    color: rgba(29, 155, 240, 1);
+}
+a#retzeet:hover{
+    background-color: rgba(0, 186, 124, 0.1);
     color: rgba(0, 186, 124, 1);
 }
-#like{
-    background: rgba(249, 24, 128, 0.1);
+a#like:hover{
+    background-color: rgba(249, 24, 128, 0.1);
     color: rgba(249, 24, 128, 1);
 }
-
 div.nomes p{
     color: rgb(15, 20, 25);
 }
@@ -82,4 +85,8 @@ div.nomes span{
 }
 ul.data li{
     color: rgb(83, 100, 113);
+}
+.tz:hover{
+    background-color: rgba(249, 24, 128, 0.1);
+    color: rgba(249, 24, 128, 1);
 }
