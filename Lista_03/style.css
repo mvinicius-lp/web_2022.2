@@ -5,7 +5,6 @@ body{
 
 a{
     list-style: none;
-    
 }
 
 .descricao{
@@ -58,8 +57,6 @@ ul.estatisticas a{
 }
 div.acoes a{
     color: rgb(83, 100, 113);
-    padding-right: 20px;
-    padding-left: 20px;
 }
 .acoes{
     text-align: center;
@@ -74,8 +71,6 @@ div.acoes a:hover{
 }
 div.acoes-tzeets a{
     color: rgb(83, 100, 113);
-    padding-left: 20px;
-    padding-right: 20px;
 }
 .acoes-tzeets{
     text-align: center;
