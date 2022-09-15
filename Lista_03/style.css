@@ -26,7 +26,7 @@ a{
 ul.estatisticas{
     padding-left: 20px;
 }
-ul.estatisticas li{
+ul.estatisticas div{
     display: inline;
 }
 ul.estatisticas a{
@@ -45,6 +45,9 @@ ul.estatisticas a{
 }
 .nome{
     color: rgb(15, 20, 25);
+}
+.tzee div:hover{
+    background-color: rgba(15, 25, 20, 0.1);
 }
 
 .arroba{
