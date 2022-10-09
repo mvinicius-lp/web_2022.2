@@ -20,7 +20,7 @@
                         <img src="tiziu.png" alt="imagem do tiziu">
                     </div>
                     <div>
-                        <a href="" class="bi bi-house-door"></a>
+                        <a href="index.html" class="bi bi-house-door"></a>
                     </div>
                     <div>
                         <a href="" class="bi bi-search"></a>
@@ -32,7 +32,7 @@
                         <a href="" class="bi bi-envelope"></a>
                     </div>
                     <div>
-                        <a href="" class="bi bi-person-fill"></a>
+                        <a href="profile.html" class="bi bi-person-fill"></a>
                     </div>
                     <div>
                         <a href="" class="bi bi-three-dots"></a>
@@ -50,7 +50,7 @@
                         <img src="tiziu.png" alt="imagem do tiziu">
                     </div>
                     <div>
-                        <a href="" class="bi bi-house-door"> Home
+                        <a href="index.html" class="bi bi-house-door"> Home
                         </a>
                     </div>
                     <div>
@@ -63,7 +63,7 @@
                         <a href="" class="bi bi-envelope"> Messages</a>
                     </div>
                     <div>
-                        <a href="" class="bi bi-person-fill"> Profile</a>
+                        <a href="profile.html" class="bi bi-person-fill"> Profile</a>
                     </div>
                     <div>
                         <a href="" class="bi bi-three-dots"> More</a>
@@ -74,37 +74,38 @@
                     </div>
                 </div>
             </div>
+
             <div class="col-xs-10 col-sm-10 col-lg-6 col-md-9 col-sm-10 col-xs-11">
-                <br>
                 <div class="center">
-                    <img src="perfil.jpeg">
-                    <div class="p-1 d-flex flex-row justify-content-end">
-                        <button type="button" class="btn btn-primary btn-format">Edit profile</button>
+                    <div id="coluna1">
+                        <h5>Home</h5>
+                        <img src="perfil.jpeg" alt="imagem do perfil">
                     </div>
-                    <h1 class="nome">Marcos Vinicius de Sousa</h1>
-                    <h2 class="arroba">@mviniciuslp87</h2>
-                
-                    <p class="descricao">Computer Engineer - Federal University of Ceará, Quixadá-CE.</p>
-                
-                    <div class="data">
-                        <i class="bi bi-geo-alt"></i>
-                        <span> Quixadá</span>
-                        <i class="bi bi-calendar3"></i>
-                        <span>August 2022</span>
+                    <div id="coluna2">
+                        <div>
+                            <textarea id="textarea" class=" border border-0 flex-fill" cols="30" rows="1" placeholder="O que você estar pensando?"></textarea>
+                            <div class="reply">
+                                <a class="bi bi-globe fw-bold text-primary" href=""> Everyone can reply</a>
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <div class="multi flex-fill d-flex flex-row">
+                                <a class="bi bi-image text-muted text-center flex-fill align-self-center" href=""></a>
+                                <a classs="bi bi-filetype-pdf text-muted text-center flex-fill align-self-center" href=""></a>
+                                <a class="bi bi-emoji-smile text-muted text-center flex-fill align-self-center" href=""></a>
+                                <a class="bi bi-bar-chart text-muted text-center flex-fill align-self-center" href=""></a>
+                                <a class="bi bi-calendar-event text-muted  text-center flex-fill align-self-center" href=""></a>
+                                <a class="bi bi-geo-alt text-muted text-center flex-fill align-self-center" href=""></a>
+                            </div>
+                            <div class="status flex-fill d-flex justify-content-end">
+                                <div class=" border-end align-self-center px-2" id="contador"></div>
+                                <div class="d-flex">
+                                    <a class="bi bi-plus-circle rounded-circle text-muted flex-fill align-self-center mx-2 px-1" href=""></a>
+                                    <button class="enviar btn btn-primary flex-fill align-self-center" disabled>Enviar</button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <br>
-                    <div class="estatisticas">
-                        <a href=""><span>10</span> following</a>
-                        <a href=""><span>20</span> followers</a>
-                    </div>
-                    <br>
-                    <div class="acoes p-1 d-flex flex-row justify-content-between">
-                        <a href="">Tzeets</a>
-                        <a href="">Tzeets & replies</a>
-                        <a href="">medias</a>
-                        <a href="">links</a>
-                    </div>
-                    <br>
                     <div class="tzee">
                         <div class="nomes">
                             <p>Petrucio Neves <span class="arroba_">@petrus</span> august 17,2022</p> 
@@ -190,5 +191,8 @@
             </div>
         </div>
     </div>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="javascript.js" defer></script>
 </body>
 </htm
