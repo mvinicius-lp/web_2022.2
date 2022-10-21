@@ -11,6 +11,46 @@
     <title>Document</title>
 </head>
 <body>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="center">
+                    <img src="perfil.jpeg" alt="imagem do perfil">
+                </div>
+                <div>
+                    <textarea id="textarea-modal" class=" border border-0 flex-fill" cols="30" rows="1" placeholder="O que você estar pensando?"></textarea>
+                    <div class="reply">
+                        <a class="bi bi-globe fw-bold text-primary" href=""> Everyone can reply</a>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <div class="multi flex-fill d-flex flex-row">
+                        <a class="bi bi-image text-muted text-center flex-fill align-self-center" href=""></a>
+                        <a classs="bi bi-filetype-pdf text-muted text-center flex-fill align-self-center" href=""></a>
+                        <a class="bi bi-emoji-smile text-muted text-center flex-fill align-self-center" href=""></a>
+                        <a class="bi bi-bar-chart text-muted text-center flex-fill align-self-center" href=""></a>
+                        <a class="bi bi-calendar-event text-muted  text-center flex-fill align-self-center" href=""></a>
+                        <a class="bi bi-geo-alt text-muted text-center flex-fill align-self-center" href=""></a>
+                    </div>
+                    <div class="status flex-fill d-flex justify-content-end">
+                        <div class=" border-end align-self-center px-2"></div>
+                        <div class="d-flex">
+                            <span id="contador-modal"></span>
+                            <a class="bi bi-plus-circle rounded-circle text-muted flex-fill align-self-center mx-2 px-1" href=""></a>
+                            <button class="enviar btn btn-primary flex-fill align-self-center" id="botao-enviar-modal" disabled>Enviar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
     <div class="container">
         <div class="row">
             <div class="col-xs-2 col-sm-2 d-md-none d-lg-none d-xl-none d-xxl-none d-sm-block d-xs-block">
@@ -39,7 +79,7 @@
                     </div>
                     <br>
                     <div>
-                        <button type="button" class="btn btn-primary btn-tzeet"><i class="bi bi-circle"></i></button>
+                        <button type="button" class="btn btn-primary btn-tzeet" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="bi bi-circle"></i></button>
                     </div>
                 </div>
             </div>
@@ -70,7 +110,7 @@
                     </div>
                     <br>
                     <div>
-                        <button type="button" class="btn btn-primary btn-tzeet">Tzeet</button>
+                        <button type="button" class="btn btn-primary btn-tzeet" data-bs-toggle="modal" data-bs-target="#exampleModal">Tzeet</button>
                     </div>
                 </div>
             </div>
@@ -98,10 +138,11 @@
                                 <a class="bi bi-geo-alt text-muted text-center flex-fill align-self-center" href=""></a>
                             </div>
                             <div class="status flex-fill d-flex justify-content-end">
-                                <div class=" border-end align-self-center px-2" id="contador"></div>
+                                <div class=" border-end align-self-center px-2"></div>
                                 <div class="d-flex">
+                                    <span id="contador"></span>
                                     <a class="bi bi-plus-circle rounded-circle text-muted flex-fill align-self-center mx-2 px-1" href=""></a>
-                                    <button class="enviar btn btn-primary flex-fill align-self-center" disabled>Enviar</button>
+                                    <button class="enviar btn btn-primary flex-fill align-self-center" id="enviar" disabled>Enviar</button>
                                 </div>
                             </div>
                         </div>
